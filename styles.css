@@ -1,0 +1,33 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    background-color: #151F69;
+}
+
+header {
+    width: 100%; /* Corrected */
+    height: 800px; /* Set a height for the header section */
+    background-image: url('pic.jpg'); /* Background image */
+    background-color: #151F69; /* Fallback background color */
+    background-size: cover; /* Cover the whole width */
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #ffffff;
+    color: #151F69;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease; /* Adds hover effect smoothness */
+}
+
+.button:hover {
+    background-color: #dddddd; /* Button hover effect */
+}
